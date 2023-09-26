@@ -1,0 +1,5 @@
+DB_HOST=[url, unquoted]
+DB_PORT=[portnumber, unquoted]
+DB_USERNAME=[username, unquoted]
+DB_PASSWORD=[pw, unquoted]
+DB_NAME=[schema, unquoted]

@@ -1,0 +1,27 @@
+Package: fairqDataStadtstruktur
+Title: Import "Stadtstruktur" geodata from Berlin's open geodata portal "FIS Broker"
+Version: 22.11.1
+Authors@R:
+    person("Guido", "Schulz", , "guido.schulz@inwt-statistics.de", role = c("aut", "cre"))
+Description: Import "Stadtstruktur" geodata from Berlin's open geodata portal "FIS Broker" and write it to the database.
+License: closed
+Imports:
+    dbtools,
+    dplyr, 
+    futile.logger,
+    geojsonsf, 
+    httr,
+    modules,
+    RClickhouse, 
+    RCurl,
+    stringi,
+    sf
+Suggests:
+    INWTUtils,
+    lintr,
+    testthat (>= 3.1.3),
+    unix
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Config/testthat/edition: 3
