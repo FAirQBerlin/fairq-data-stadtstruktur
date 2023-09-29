@@ -7,7 +7,7 @@ This repository contains R code that downloads data from Berlin's official open 
 
 - Create an `.Renviron` file in the project folder and fill it with credentials, see `.Renviron_template` for the structure.
 - Build the R package
-- Create database as described in https://github.com/INWT/fairq-data/tree/main/inst/db (schema `fairq_raw`)
+- Create database as described in https://github.com/fairqBerlin/fairq-data/tree/main/inst/db (schema `fairq_raw`)
 - Run `inst/RScripts/main.R` to start the ETL (= download geodata from "FIS Broker", transform geodata, write it to database)
 
 

@@ -1,6 +1,6 @@
 Package: fairqDataStadtstruktur
 Title: Import "Stadtstruktur" geodata from Berlin's open geodata portal "FIS Broker"
-Version: 22.11.1
+Version: 23.09.0
 Authors@R:
     person("Guido", "Schulz", , "guido.schulz@inwt-statistics.de", role = c("aut", "cre"))
 Description: Import "Stadtstruktur" geodata from Berlin's open geodata portal "FIS Broker" and write it to the database.
